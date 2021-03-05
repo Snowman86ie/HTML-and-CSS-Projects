@@ -1,0 +1,207 @@
+        /* --- Main page stlyes --- */
+        
+        .background {
+            background-color: #fffff0;
+        }
+        
+        footer,
+        nav {
+            display: block;
+        }
+        
+        h1 {
+            line-height: 50px;
+            font-weight: 600;
+            font-size: 42px;
+            font-variant: small-caps;
+            text-align: center;
+            color: #cd5c5c;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+        }
+        
+        h1::after {
+            display: block;
+            content: "";
+            height: 3px;
+            width: 250px;
+            background: #cd5c5c;
+            margin: 5px auto 40px;
+            box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+        }
+        /*--- Menu styles ---*/
+        
+        .navbar {
+            height: 105px;
+            max-height: 340px;
+            display: block;
+        }
+        
+        .menu-wrap {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            text-align: center;
+        }
+        
+        .menu-container {
+            max-height: 340px;
+            margin: 0% auto;
+            content: " ";
+            width: 100%;
+            position: fixed;
+            z-index: 100;
+        }
+        
+        .menu {
+            color: #f00;
+            font: bold 12px/18px sans-serif;
+            font-variant: small-caps;
+            text-align: center;
+            display: inline;
+            margin: 0% auto;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        
+        .menu li {
+            color: #000;
+            background-color: rgba(255, 255, 255, 1);
+            display: inline-block;
+            margin: 0% auto;
+            position: relative;
+            padding: 15px 4%;
+            border: 1px solid #9d9fa2;
+            box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+            border-radius: 25px;
+            cursor: pointer;
+            transition-property: background;
+            transition-duration: 0.4s;
+            transition-delay: 0s;
+            transition-timing-function: ease-in-out;
+        }
+        
+        .menu li:hover {
+            color: #f00;
+            background-color: rgba(100, 65, 0, 0.3);
+        }
+        /*--- Home scetion styles ---*/
+        
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        .intro {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            text-align: center;
+            color: black;
+        }
+        
+        #home {
+            padding-top: 50px;
+        }
+        
+        .logo {
+            background-color: #000;
+            text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+            font-variant: small-caps;
+            color: #cd5c5c;
+            letter-spacing: 5pt;
+            word-spacing: 21pt;
+            font-size: 4.5em;
+            text-align: left;
+            font-family: impact, sans-serif;
+            line-height: 2;
+            font-weight: 900;
+            border: 5px double #f00;
+            padding: 10px;
+        }
+        /* --- Subscribe section style --- */
+        
+        .subscribe-container {
+            background-color: #fffacd;
+            width: 75%;
+            text-align: center;
+            border-radius: 25px;
+            padding: 5px;
+            margin: auto;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+        
+        .form-container form {
+            width: 50%;
+            margin: auto;
+            padding: 10px;
+            outline: none;
+        }
+        
+        .sub {
+            font-size: 12px;
+            width: 70%;
+            background-color: aliceblue;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 25px;
+            outline: none;
+        }
+        
+        .form-container input:hover {
+            background-color: white;
+        }
+        
+        .submit input {
+            color: rgb(225, 225, 225);
+            cursor: pointer;
+            border: none;
+            font-weight: 900;
+            outline: none;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            margin: 0px 3%;
+            padding: 7px 0px;
+            width: 25%;
+            font-size: 18px;
+            transition: border-color 0.3s color 0.3s background-color 0.3s;
+            border-radius: 7px;
+            background-color: #797a7b;
+            box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .submit input:hover {
+            color: #000;
+            background-color: #8d8e8f;
+            box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+        }
+        
+        .form-spacer {
+            padding: 10px 5px;
+        }
+        
+        .terms {
+            font-style: italic;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        
+        .terms:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        /* ---- Footer Styles ---- */
+        
+        #footer {
+            background-color: rgba(223, 145, 2, 0.418);
+            color: #000;
+            text-shadow: 2px 2px 8px 0 (0, 0, 0, 0.4);
+            padding: 10px 30px 10px 30px;
+            text-align: center;
+        }
